@@ -1,9 +1,10 @@
 package com.mindtree.appsecure;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+import javax.persistence.Entity;
 
-@Document(collection = "user")
+import javax.persistence.Id;
+
+@Entity
 public class User {
 
 	@Id

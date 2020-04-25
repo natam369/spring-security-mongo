@@ -8,6 +8,6 @@
 </head>
 <body>
 <h1>Welcome to DEVOPS</h1>
-<a href="/logout">LOgout</a>
+<a href="/logout-success">Logout</a>
 </body>
 </html>
